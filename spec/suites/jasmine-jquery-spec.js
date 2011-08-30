@@ -1,3 +1,6 @@
+var $ = jQuery = require('jquery');
+require('../../index');
+
 describe("jasmine.Fixtures", function() {
   var ajaxData = 'some ajax data';
   var fixtureUrl = 'some_url';
