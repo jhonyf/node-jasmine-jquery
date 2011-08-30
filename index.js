@@ -2,7 +2,7 @@ var fs = require('fs');
 var sys = require('sys');
 var path = require('path');
 
-var filename = __dirname + 'lib/jasmine-jquery.js';
+var filename = __dirname + '/lib/jasmine-jquery.js';
 var src = fs.readFileSync(filename);
 var minorVersion = process.version.match(/\d\.(\d)\.\d/)[1];
 switch (minorVersion) {
